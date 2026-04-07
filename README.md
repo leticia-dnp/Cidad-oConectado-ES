@@ -19,9 +19,9 @@ Cidadão Conectado é uma plataforma web colaborativa desenvolvida em HTML, CSS 
 
 ---
 
-## 📂 Como acessar
+## Veja o protótipo
 Este projeto está disponível via **GitHub Pages**:  
-👉 [Acesse aqui](https://seuusuario.github.io/cidadao-conectado/)  
+👉 [Acesse aqui](https://leticia-dnp.github.io/Cidad-oConectado-ES/)
 
 ---
 
