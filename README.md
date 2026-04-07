@@ -4,7 +4,7 @@ Cidadão Conectado é uma plataforma web colaborativa desenvolvida em HTML, CSS 
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Registro de ocorrências com descrição, foto e localização.
 - Mapa interativo para visualizar problemas urbanos.
 - Painel de acompanhamento das ocorrências.
@@ -12,7 +12,7 @@ Cidadão Conectado é uma plataforma web colaborativa desenvolvida em HTML, CSS 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **HTML** – estrutura das páginas.  
 - **CSS** – estilização e design responsivo.  
 - **JavaScript** – lógica de interação e dinamismo.  
@@ -26,4 +26,4 @@ Este projeto está disponível via **GitHub Pages**:
 ---
 
 ## 📌 Status do Projeto
-Em desenvolvimento – é um projeto de versão inicial para apresentação acadêmica na disciplina de Engenharia de Software. O mesmo possui documentação técnica e ajustes contínuos.
+Em desenvolvimento – é um projeto de versão inicial para apresentação acadêmica na disciplina de Engenharia de Software. O mesmo possui documentação técnica e ajustes contínuos. 
