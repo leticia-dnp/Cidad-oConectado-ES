@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cidadão Conectado</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Biblioteca Leaflet para mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+  <header>
+    <h1>Plataforma de Monitoramento Comunitário</h1>
+    <p>Registre e acompanhe ocorrências de infraestrutura pública em sua região</p>
+  </header>
+
+  <main>
+    <!-- Formulário de registro de ocorrências -->
+    <section id="form-section">
+      <h2>Registrar Ocorrência</h2>
+      <form id="reportForm">
+        <label>Identifique-se:</label>
+        <div class="role-selector">
+          <button type="button" class="role-btn active" data-role="cidadao">Cidadão</button>
+          <button type="button" class="role-btn" data-role="servidor">Servidor Público</button>
+          <button type="button" class="role-btn" data-role="prefeitura">Membro da Prefeitura</button>
+        </div>
+        <input type="hidden" id="userRole" value="cidadao">
+
+        <label for="address">Informe o endereço da sua Região:</label>
+        <div class="search-container">
+          <input type="text" id="address" placeholder="Rua, Bairro, Cidade">
+          <button type="button" id="searchAddress">Buscar no Mapa</button>
+        </div>
+
+        <label for="type">Selecione o tipo de problema:</label>
+        <select id="type" required>
+          <option value="rua">Rua</option>
+          <option value="iluminacao">Iluminação Pública</option>
+          <option value="saneamento">Saneamento</option>
+          <option value="transporte">Transporte</option>
+        </select>
+
+        <label for="description">Descreva:</label>
+        <textarea id="description" placeholder="Ex: Como cidadão, quero registrar um problema de iluminação pública para que a Prefeitura possa resolver." required></textarea>
+        <button type="submit">Enviar Ocorrência</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Mapa de Ocorrências</h2>
+      <div id="map"></div>
+    </section>
+
+    <section id="info-section">
+      <h2 class="section-title">Status da Infraestrutura Regional</h2>
+      <div id="infrastructure-info"></div>
+      <hr class="separator">
+      <h3 class="news-title">📰 Notícias e Avisos da Prefeitura</h3>
+      <div id="news-info"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

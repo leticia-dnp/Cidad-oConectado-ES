@@ -1,0 +1,216 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+header {
+  background: linear-gradient(135deg, rgba(0, 119, 182, 0.7), rgba(144, 238, 144, 0.7)), 
+              url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#form-section h2 {
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(135deg, #48cae4, #b9fbc0);
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+}
+
+#address {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+#searchAddress {
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: linear-gradient(135deg, #0077b6, #90ee90);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #023e8a, #76c893);
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.role-selector {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.role-btn {
+  flex: 1;
+  margin-top: 0 !important;
+  padding: 8px !important;
+  font-size: 0.8em !important;
+  background: #eee !important;
+  color: #333 !important;
+  border: 1px solid #ccc !important;
+}
+
+.role-btn.active {
+  background: linear-gradient(135deg, #0077b6, #90ee90) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.separator {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.news-title {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+#news-info {
+  text-align: center;
+}
+
+.status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.status-label {
+  font-weight: bold;
+}
+
+.status-badge {
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+}
+
+.news-text {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.news-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #0077b6;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#address:hover,
+#address:focus,
+#news-info a:hover,
+#news-info a:focus {
+  border-color: #0077b6 !important;
+  outline: none;
+}
+
+#address::placeholder,
+#description::placeholder {
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
