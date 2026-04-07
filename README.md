@@ -4,6 +4,11 @@ Cidadão Conectado é uma plataforma web colaborativa desenvolvida em HTML, CSS 
 
 ---
 
+## Tema Principal
+Este projeto foi desenvolvido com foco no **Desenvolvimento de um Sistema de Informação completo voltado à solução de um problema real da sociedade**, alinhado a pelo menos um dos **Objetivos de Desenvolvimento Sustentável (ODS)** da Organização das Nações Unidas.  Sendo escolhida a **ODS 9 – Indústria, Inovação e Infraestrutura**: Construir infraestruturas resilientes e promover inovação. 
+
+---
+
 ## Funcionalidades
 - Registro de ocorrências com descrição, foto e localização.
 - Mapa interativo para visualizar problemas urbanos.
