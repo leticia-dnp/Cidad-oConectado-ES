@@ -9,6 +9,14 @@ Este projeto foi desenvolvido com foco no **Desenvolvimento de um Sistema de Inf
 
 ---
 
+## 📖 Histórias de Usuário (3C’s)
+Exemplo aplicado no projeto:  
+- **Cartão**: *“Como cidadão, quero registrar um problema de iluminação pública para que a prefeitura possa resolver.”*  
+- **Conversas**: Discussões sobre como o formulário deve permitir descrição, foto e localização.  
+- **Confirmação**: Critérios de aceitação → O usuário consegue enviar a ocorrência, recebe mensagem de sucesso e a ocorrência aparece no mapa.  
+
+---
+
 ## Funcionalidades
 - Registro de ocorrências com descrição, foto e localização.
 - Mapa interativo para visualizar problemas urbanos.
