@@ -1,7 +1,7 @@
-# 🌐 Cidadão Conectado - Protótipo
+## 🌐 Cidadão Conectado - Protótipo
 
-Cidadão Conectado é uma plataforma web colaborativa desenvolvida em **HTML, CSS e JavaScript** que permite aos cidadãos registrar e acompanhar problemas de infraestrutura urbana em suas comunidades.  
-O objetivo é dar visibilidade às ocorrências locais, promover transparência e apoiar órgãos públicos na tomada de decisões, fortalecendo a participação social.
+Cidadão Conectado é uma plataforma web colaborativa desenvolvida em HTML, CSS e JavaScript que permite aos cidadãos registrar e acompanhar problemas de infraestrutura urbana em suas comunidades. O objetivo é dar visibilidade às ocorrências locais, promover transparência e apoiar órgãos públicos na tomada de decisões, fortalecendo a participação social.
+
 ---
 
 ## 🚀 Funcionalidades
